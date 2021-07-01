@@ -1,0 +1,88 @@
+name="kaushik"
+age="23"
+salary="50000.50"
+print(name,age,salary)
+print(name,age,salary,sep="-")
+print(name,age,end="=")
+print(salary)
+
+#output
+kaushik 23 50000.50
+kaushik-23-50000.50
+kaushik 23=50000.50
+
+#operators
+#concatenation
+a="hello"
+b="World"
+c=a+b
+print(c)
+#output
+helloWorld
+
+#repetetion
+print(a*15)
+#output
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
+
+#comparison
+a=50
+b=30
+print(a<b)
+print(a>b)
+print(a<=b)
+print(a>=b)
+print(a==b)
+print(a!=b)
+#output
+False
+True
+False
+True
+False
+True
+
+#logical operators
+a="hello"
+b="world"
+print(a and b)
+print(a or b)
+#output
+#logical operators
+a="hello"
+b="world"
+print(a and b)
+print(a or b)
+
+#arithmentic operators
+a=10
+b=20
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a**b)
+print(a%b)
+#output
+30
+-10
+200
+0.5
+0
+100000000000000000000
+10
